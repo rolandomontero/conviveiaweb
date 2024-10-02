@@ -1,0 +1,301 @@
+@import url(http://fonts.googleapis.com/css?family=Coda);
+@import url(http://fonts.googleapis.com/css?family=Economica:400,700);
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+@import url(http://fonts.googleapis.com/css?family=Happy+Monkey);
+
+
+
+body  {
+	font-family: 'Happy Monkey', cursive, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	font-weight: 400; 
+	color:#979f16;
+	}
+
+.giro {
+	padding-left:2.1em;
+	font: 24px 'Coda';
+	font-weight: 400;
+	color:#f9ff9c;
+	background-color:#2A3F00;
+	box-shadow:2px 2px 2px rgba(0,0,0,.8); 
+}
+
+.nav-site {
+	font-family: 'Economica', cursive, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	font-weight: 400; 
+	color:#2A3F00;
+    padding-top:0.5em;
+	padding-left:1.5em;
+}
+
+.nav-site  a {
+	color:#2A3F00;
+	/* padding: 4px 20px; 
+    border-left: 1px solid #999; 
+    border-right: 1px solid #222; */
+    text-decoration:none; 
+	
+}
+
+
+.nav-site  a:hover {
+	 border-top: 1px solid #2A3F00;    
+}
+
+
+
+
+.lateral {
+	font: 12px 'Coda';
+	font-weight: 400;
+	background-color:#979f16;
+	box-shadow:2px 2px 2px rgba(0,0,0,.8); 
+	
+}
+
+
+
+.pie {
+	font-family: "Coda", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	color:#5E5E5E;
+	text-shadow: -1px -1px white, 1px 1px #333
+}
+	
+.eirl {
+	font-family:  "Economica", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 28px;
+	color:#979f16;
+	text-shadow: -1px -1px 5px #f9ff9c,1px 1px #333;
+	margin-top: -2px;
+}
+		
+nav {
+	display: block;
+	margin: 0 auto 18px;
+	border-top: 2px solid #f9ff9c;
+	position: relative;
+	background-color: #FFFFFF; 
+	font-family: "Coda", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 10px;
+
+}
+
+nav ul {
+     padding: 0; 
+     margin: 0; 
+}
+
+nav ul:after { 
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden; 
+}
+
+nav li { 
+    position: relative; 
+    float: left; 
+    list-style-type: none; 
+}
+
+nav li a { 
+    display: block; 
+    padding: 4px 20px; /*
+    border-left: 1px solid #999; 
+    border-right: 1px solid #222; */
+    color: #165516; 
+    text-decoration:none; 
+}
+
+nav li a:focus { 
+    outline: none; 
+    text-decoration: underline; 
+}
+
+nav li:first-child a { 
+    border-left: none; 
+} 
+
+nav li.ultimo a { 
+    border-right: none; 
+}
+
+nav li:hover ul { 
+    display:block; 
+}
+
+nav a span { 
+    display: block; 
+    float: right; 
+    margin-left: 5px; 
+}
+
+nav ul a span { 
+    -moz-transform:rotate(-180deg);
+    -webkit-transform:rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+nav ul ul { 
+    display: none; 
+    width: 100%; 
+    position: absolute; 
+    left: 0; 
+    background: #f7ff7c;
+	box-shadow:2px 2px 2px rgba(0,0,0,.4);
+	-webkit-transition: all ease 0.4s;
+	-moz-transition: all ease 0.4s;
+	-o-transition: all ease 0.4s;
+	-ms-transition: all ease 0.4s;
+	transition: all ease 0.4s;
+	/*#FDEDB2; */
+}
+
+nav ul ul li { 
+    float: none; 
+}
+
+nav ul ul a { 
+    padding: 5px 10px; 
+    border-left: none; 
+    border-right: none; 
+    font-size: 10px; 
+}
+
+nav ul ul a:hover { 
+    background-color: #f7ff7c; 
+	
+}
+
+
+nav li:hover { 
+    background-color: #f7ff7c; 
+	box-shadow:2px 2px 2px rgba(0,0,0,.4);
+	-webkit-transition: all ease 0.4s;
+	-moz-transition: all ease 0.4s;
+	-o-transition: all ease 0.4s;
+	-ms-transition: all ease 0.4s;
+	transition: all ease 0.4s;
+	/*
+    border-bottom-left-radius:4px; 
+    border-bottom-right-radius:4px;
+    
+    background-image:-moz-linear-gradient(0% 100px 90deg, #999, #f7ff7c); 
+    background-image:-webkit-gradient(linear, 0% 0%, 0% 70%, from(#f7ff7c), to(#999)); */
+}
+
+nav ul ul { 
+    border-bottom-left-radius:4px; 
+    border-bottom-right-radius:4px;
+    box-shadow:2px 2px 2px rgba(0,0,0,.8); 
+    background-color: #f7ff7c; /*rgba(253,237,178,0.8); */
+    
+    /*-moz-box-shadow:2px 2px 2px rgba(0,0,0,.8); 
+    -webkit-box-shadow:2px 2px 2px rgba(0,0,0,.8); 
+    
+    -moz-border-radius-bottomleft:4px; 
+    -moz-border-radius-bottomright:4px; 
+    -webkit-border-bottom-left-radius:4px; 
+    -webkit-border-bottom-right-radius:4px;  */
+}
+
+nav ul ul li { 
+    border-left:1px solid rgba(0,0,0,0.1); 
+    border-right:1px solid rgba(0,0,0,0.1); 
+}
+
+nav ul ul li.ultimo { 
+    border-left:1px solid rgba(0,0,0,0.1); 
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    border-bottom-left-radius:4px; 
+    border-bottom-right-radius:4px;  
+    
+    /*-moz-border-radius-bottomleft:4px; 
+    -moz-border-radius-bottomright:4px; 
+    -webkit-border-bottom-left-radius:4px; 
+    -webkit-border-bottom-right-radius:4px;*/ 
+}
+
+nav ul ul a:hover { 
+    background-color: #cbd06b;
+}
+
+
+
+
+menu {
+	
+	font-family: "Coda", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	
+	float: left;
+	border-right: 1px solid #2A3F00;
+	min-height: 100%;
+	margin-left: 0.1em;
+}
+
+menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+menu li {
+	list-style-type: none;
+
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 1;
+}
+
+menu li a {
+	text-decoration:none;
+	display: block;
+	padding: 0.5em 1em;
+	white-space: nowrap;
+	color:#2A3F00;
+}
+
+menu li ul {
+		position: absolute;
+		overflow: hidden;
+		display: none;
+		left: 100%;
+		top: 0.5em;
+		float: none;
+		/*
+		background-image: -moz-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+		background-image: -webkit-radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+		background-image: radial-gradient(0 50%, ellipse  farthest-side, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 33%, rgba(0,0,0,0) 100%);
+		*/
+	}
+	
+menu li:hover ul {
+		display: block;
+	}
+	
+menu li ul a {
+		position: relative;
+		font-size: 0.8em;
+	}
+	
+menu li ul a:hover:before {
+		content: "";
+		display: block;
+		width: 1em;
+		height: 1em;
+		background: rgba(98,100,48,0.75);
+		border: 1px solid #2A3F00;
+		position: absolute;
+		top: 0.5em;
+		left: -0.75em;
+		-moz-transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+	
